@@ -63,7 +63,7 @@ export default function PinOverlay({ onUnlock }) {
           <p className="font-serif text-[50px] text-white/90 leading-[1.3] mb-10">
             Mam 20 lat. Aktualnie kończę szkołę techniczną o profilu programista w małym mieście na Dolnym Śląsku, które słynie z porcelany. 
             Szkołę wybrałem świadomie - nie nadaję się na humanistę. Matematyka była w moim przypadku wstępem do programowania. 
-            Zależności, zasady, konkretne wybory i jednoznaczność...<br/>
+            Zależności, zasady, konkretne wybory i jednoznaczność...<br/><br/>
           </p>
 
           <span className="font-serif text-[19px] text-white/60">

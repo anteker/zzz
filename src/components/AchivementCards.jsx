@@ -1,8 +1,8 @@
 export default function AchievementsSection() {
   const osiagniecia = [
     { id: 1, label: "Egzamin ósmoklasisty - Matematyka", percent: 100 },
-    { id: 2, label: "INF.03 - egzamin zawodowy praktyczny", percent: 97 },
-    { id: 3, label: "INF.04 - egzamin zawodowy praktyczny", percent: 96 },
+    { id: 2, label: "INF.03 - egzamin zawodowy programista - praktyczny", percent: 97 },
+    { id: 3, label: "INF.04 - egzamin zawodowy programista - praktyczny", percent: 96 },
     { id: 4, label: "Próbna matura - Matematyka", percent: 100 },
   ];
 
@@ -10,8 +10,8 @@ export default function AchievementsSection() {
     <section className="min-h-screen bg-[#b8b8b8] flex items-center justify-center">
       <div className="max-w-[700px] w-full text-center">
         
-        <p className="font-serif text-[58px] text-[#111]">
-          Wyniki egzaminów
+        <p className="font-serif text-[50px] text-[#111]">
+          Wyniki moich egzaminów:
         </p>
         
         <div className="flex flex-col gap-6">
