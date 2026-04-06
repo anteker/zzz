@@ -39,17 +39,20 @@ export function MinecraftSection() {
         <img 
           src={plugin} 
           alt="Plugin minecraft"
-          className="w-full h-full object-cover opacity-50" 
+          className="w-full h-full object-cover opacity-90" 
         />
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
       <div className="relative z-10 text-center max-w-[720px]">
-        <h2 className="font-serif text-6xl text-white mb-6">
+        <h2 className="font-serif text-[50px] text-white mb-6">
           Jak to się zaczęło?<br/><br/>
         </h2>
-        <p className="font-serif text-5xl text-white leading-[1.2]">
-          Jak chyba u każdego dziecka. Od gier, od tworzenia pluginów w Minecraft.
+        <p className="font-serif text-[50px] text-white leading-[1.2]">
+          Jak chyba u każdego dziecka...
+        </p>
+        <p className="font-serif text-[50px] text-white leading-[1.2]">
+          Od gier, od tworzenia pluginów w Minecraft.
         </p>
       </div>
     </section>
@@ -64,14 +67,14 @@ export function ServerSection() {
         <img 
           src={screen} 
           alt="indigomc.pl tło" 
-          className="w-full h-full object-cover opacity-60" 
+          className="w-full h-full object-cover opacity-90" 
         />
         <div className="absolute inset-0 bg-black/70" />
       </div>
 
       <div className="relative z-10 max-w-[800px]">
-        <p className="font-serif text-6xl text-white leading-[1.2]">
-          Potem było stworzenie własnego serwera do gier.
+        <p className="font-serif text-[50px] text-white leading-[1.2]">
+          Ostatnim etapem fascynacji grami było samodzielne stworzenie serwera w grze Minecraft.
         </p>
       </div>
     </section>
