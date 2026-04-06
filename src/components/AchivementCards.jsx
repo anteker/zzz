@@ -8,24 +8,24 @@ export default function AchievementsSection() {
 
   return (
     <section className="min-h-screen bg-[#b8b8b8] flex items-center justify-center">
-      <div className="max-w-[650px] w-full text-center">
+      <div className="text-center w-full flex flex-col items-center">
         
-        <p className="font-serif text-[50px] text-[#111]">
-          Wyniki moich egzaminów:
+        <p className="font-serif text-[50px] text-[#111] whitespace-nowrap mb-8">
+          Wyniki moich egzaminów, które uważam za najważniejsze:
+          <p><br></br></p>
         </p>
-        <p><br></br></p>
         
-        <div className="flex flex-col gap-8">
+        <div className="max-w-[670px] w-full flex flex-col gap-8 mx-auto">
           {osiagniecia.map((item) => (
             <div 
               key={item.id}
-              className="bg-white rounded-sm flex items-center gap-4"
+              className="bg-white rounded-xl flex items-center gap-4 py-2 shadow-sm"
             >
-              <span className="font-serif text-[46px] text-[#111] indent-8">
-              {item.percent}%
+              <span className="font-serif text-[46px] text-[#111] indent-8 min-w-[150px] text-left">
+                {item.percent}%
               </span>
               
-              <span className="font-serif text-[20px] text-[#444]">
+              <span className="font-serif text-[20px] text-[#444] text-left pr-4">
                 {item.label}
               </span>
             </div>
