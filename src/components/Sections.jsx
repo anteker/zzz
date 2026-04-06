@@ -7,9 +7,9 @@ export function FinaleSection({ certificates = [] }) {
       <div className="max-w-[1400px] w-full flex flex-col items-center gap-16 text-center">
         
         <div className="max-w-[1300px]">
-          <h2 className="font-serif text-[clamp(28px,4.5vw,52px)] text-white leading-[1.2] mb-6">
+          <h2 className="font-serif text-[52px] text-white leading-[1.2] mb-6">
             CZERWONY - to kolor paska na każdym świadectwie podczas nauki w technikum.
-            <br/><br/>stypendim tekst
+            <br/><br/>Co roku byłem laureatem stypendium starosty za wybitne osiągnięcia w nauce.
           </h2>
         </div>
 
@@ -48,7 +48,7 @@ export function MinecraftSection() {
         <h2 className="font-serif text-6xl text-white mb-6">
           Jak to się zaczęło?<br/><br/>
         </h2>
-        <p className="font-serif text-5xl text-white">
+        <p className="font-serif text-5xl text-white leading-[1.2]">
           Jak chyba u każdego dziecka. Od gier, od tworzenia pluginów w Minecraft.
         </p>
       </div>
@@ -70,7 +70,7 @@ export function ServerSection() {
       </div>
 
       <div className="relative z-10 max-w-[800px]">
-        <p className="font-serif text-6xl text-white">
+        <p className="font-serif text-6xl text-white leading-[1.2]">
           Potem było stworzenie własnego serwera do gier.
         </p>
       </div>

@@ -15,7 +15,7 @@ export default function LanguagesSection() {
     <section className="min-h-screen bg-[#d0d0d0] flex flex-col items-center justify-center px-6 py-20">
       <div className="max-w-4xl w-full text-center">
         
-        <h2 className="font-serif text-[40px] md:text-[52px] text-[#111] leading-tight mb-16 ">
+        <h2 className="font-serif text-[52px] text-[#111] leading-tight mb-16 ">
           Oprócz języka polskiego i angielskiego doskonalę swoje umiejętności w "jezykach":<br/><br/>
         </h2>
 
@@ -30,7 +30,7 @@ export default function LanguagesSection() {
               }}
             >
               <i className={`${lang.icon} text-white text-4xl mb-3`}></i>
-              <span className="font-sans text-white/90 text-[11px] font-normal uppercase tracking-[0.25em]">
+              <span className="font-serif text-white/90 text-[11px] font-normal uppercase tracking-[0.25em]">
                 {lang.name}
               </span>
             </div>

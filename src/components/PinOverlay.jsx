@@ -60,13 +60,13 @@ export default function PinOverlay({ onUnlock }) {
         
         <div className="max-w-[1000px]">
           
-          <p className="font-serif text-[clamp(30px,2.3vw,40px)] text-white/90 leading-[1.8] mb-10">
+          <p className="font-serif text-[50px] text-white/90 leading-[1.3] mb-10">
             Mam 20 lat. Kończę właśnie szkołę techniczną o profilu programista w małym mieście na Dolnym Śląsku, które słynie z porcelany. 
             Szkołę wybrałem świadomie — nie nadaję się na humanistę. Matematyka była w moim przypadku wstępem do programowania. 
             Zależności, zasady, konkretne wybory i jednoznaczność...
           </p>
 
-          <span className="font-serif text-[clamp(16px,1.5vw,19px)] text-white/60 block">
+          <span className="font-serif text-[19px] text-white/60">
             Przewijaj tę stronę dalej.
           </span>
         </div>
