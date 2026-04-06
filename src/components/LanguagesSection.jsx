@@ -15,7 +15,7 @@ export default function LanguagesSection() {
     <section className="min-h-screen bg-[#d0d0d0] flex flex-col items-center justify-center px-6 py-20">
       <div className="max-w-4xl w-full text-center">
         
-        <h2 className="font-serif text-[52px] text-[#111] leading-tight mb-16 ">
+        <h2 className="font-serif text-[50px] text-[#111] leading-tight mb-16 ">
           Oprócz języka polskiego i angielskiego doskonalę swoje umiejętności w "jezykach":<br/><br/>
         </h2>
 
@@ -23,7 +23,7 @@ export default function LanguagesSection() {
           {LANGUAGES.map((lang, i) => (
             <div 
               key={lang.name} 
-              className="bg-[#333] rounded-sm w-[150px] h-[110px] flex flex-col items-center justify-center shadow-2xl"
+              className="bg-[#333] rounded-xl w-[150px] h-[110px] flex flex-col items-center justify-center shadow-2xl"
               style={{ 
                 opacity: 0,
                 animation: `popIn 0.6s ease forwards ${i * 0.1}s` 
