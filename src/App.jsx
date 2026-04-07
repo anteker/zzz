@@ -11,20 +11,20 @@ import praktyki1   from "./assets/images/praktyki1.png";
 import praktyki2   from "./assets/images/praktyki2.jpeg";
 import witryna     from "./assets/images/witryna.png";
 import projekt2    from "./assets/images/projekt2.png";
-import projekt22   from "./assets/images/projekt22.png";
 import projekt3    from "./assets/images/projekt3.png";
 import projekt4    from "./assets/images/projekt4.png";
-import klasa1      from "./assets/images/nagrody/klasa1.png";
-import klasa2      from "./assets/images/nagrody/klasa2.png";
-import klasa3      from "./assets/images/nagrody/klasa3.png";
-import klasa4      from "./assets/images/nagrody/klasa4.png";
-import stypendium1 from "./assets/images/nagrody/stypendium1.png";
-import stypendium2 from "./assets/images/nagrody/stypendium2.png";
-import stypendium3 from "./assets/images/nagrody/stypendium3.png";
+import klasa1      from "./assets/images/nagrody/1klasa.png";
+import klasa2      from "./assets/images/nagrody/2klasa.png";
+import klasa3      from "./assets/images/nagrody/3klasa.png";
+import klasa4      from "./assets/images/nagrody/4klasa.png";
+import stypendium1 from "./assets/images/nagrody/1stypendium.png";
+import stypendium2 from "./assets/images/nagrody/2stypendium.png";
+import stypendium3 from "./assets/images/nagrody/3stypendium.png";
+import stypendium4 from "./assets/images/nagrody/4stypendium.png";
 
 const SLIDES = [
   <AchievementCard key="ach" />,
-  <FinaleSection key="finale" certificates={[klasa1, klasa2, klasa3, klasa4, stypendium1, stypendium2, stypendium3]} />,
+  <FinaleSection key="finale" certificates={[klasa1, klasa2, klasa3, klasa4, stypendium1, stypendium2, stypendium3,stypendium4]} />,
   <LanguagesSection key="langs" />,
   <MinecraftSection key="mc" />,
   <ServerSection key="srv" />,
@@ -33,7 +33,9 @@ const SLIDES = [
   <ProjectCard key="proj1" title="Projekt pozaszkolny" image={witryna} description={<>W pełni responsywna strona internetowa mojego serwera Minecraft – <a href="https://indigomc.pl" target="_blank" rel="noopener noreferrer">indigomc.pl</a>. Gracze mogą na niej kupować doładowania portfela, który w grze pełni rolę waluty do nabywania konkretnych usług. Projekt korzysta z systemu płatności PayByLink, który po zweryfikowaniu płatności wysyła sygnał, umożliwiając graczowi otrzymanie w grze wybranej wartości doładowania. Każda transakcja przechodzi przez indywidualną bramkę płatniczą i jest w pełni szyfrowana. Strona wykorzystuje również bazę danych do przechowywania informacji o graczach oraz prowadzenia statystyk.</>} />,
   <ProjectCard key="proj2" title="Projekt pozaszkolny" image={projekt2} description="„Tworzenie pluginów do Minecrafta oraz własnego serwera, co pozwoliło mi praktycznie poznawać Javę, rozwijać umiejętności programistyczne oraz konfigurować i poznawać Bukkit API. Projekt był częścią wcześniejszej strony internetowej, dzięki czemu mogłem jednocześnie łączyć rozwój backendu serwera z nauką integracji pluginów i praktycznym zastosowaniem języka Java.”" />,
   <ProjectCard key="proj3" title="Projekt pozaszkolny" image={projekt3} description="W pełni responsywna strona internetowa dla lokalnego psychoterapeuty, stworzona w Next.js, umożliwiająca prezentację usług oraz kontakt z klientami poprzez odnośnik do profilu na portalu ZnanyLekarz.pl." />,
-  <ProjectCard key="proj4" title="I wiele, wiele więcej!" images={[projekt4]} description="Obecnie tworzę aplikację mobilną dla iOS, która ułatwia graczom gier Supercell śledzenie postępów, korzystając z oficjalnego API Supercell. Projekt realizuję w Swift." />,
+  <ProjectCard key="proj4" title="I wiele, wiele więcej!" images={[projekt4]} description="Tworzę kompleksowy kurs przygotowujący do kwalifikacji INF.04, której jestem absolwentem, dzięki czemu dobrze rozumiem wymagania egzaminacyjne oraz potrzeby osób uczących się. W ramach projektu stworzę pełnoprawną platformę edukacyjną – od panelu logowania i rejestracji użytkowników, przez opracowanie i wdrożenie bazy danych do przechowywania informacji o użytkownikach, aż po integrację z operatorem płatności umożliwiającym zakup dostępu do kursu.
+Na platformie opracuję autorskie materiały wideo, które w przystępny sposób omówią cały zakres wiedzy wymagany do zdania kwalifikacji INF.04. Kurs będzie prowadzony krok po kroku, obejmując zarówno zagadnienia teoretyczne, jak i praktyczne, tak aby użytkownicy mogli kompleksowo przygotować się do egzaminu.
+Projekt połączy umiejętności programistyczne – tworzenie aplikacji webowej, obsługę backendu i baz danych oraz integrację z zewnętrznymi API – z kompetencjami dydaktycznymi, ponieważ jego celem będzie nie tylko stworzenie działającego systemu, ale przede wszystkim skuteczne przygotowanie innych osób do egzaminu zawodowego." />,
 ];
 
 export default function App() {

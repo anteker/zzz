@@ -4,11 +4,11 @@ export default function InternshipSection({ number, description, screenshot, kol
       className="min-h-screen w-full flex flex-col items-center justify-center text-center gap-12"
       style={{ backgroundColor: kolor }}
     >
-      <h2 className="font-serif text-6xl text-[#111] mb-6">
+      <h2 className="font-serif text-[50px] text-[#111] mb-6">
         Czas praktyk szkolnych był już trudniejszy.
       </h2>
       
-      <p className="font-serif text-2xl text-[#333] max-w-[800px] leading-[1.3]">
+      <p className="font-serif text-[19px] text-[#333] max-w-[800px] leading-[1.3]">
         {description}
       </p>
 

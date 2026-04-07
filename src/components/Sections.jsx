@@ -17,7 +17,7 @@ export function FinaleSection({ certificates = [] }) {
           {certificates.map((img, index) => (
             <div 
               key={index} 
-              className="shadow-[0_25px_50px_rgba(0,0,0,0.4)] rounded-lg overflow-hidden w-full bg-white/10"
+              className="rounded-lg w-[200px] bg-white/10"
             >
               <img 
                 src={img} 
@@ -58,21 +58,20 @@ export function MinecraftSection() {
     </section>
   );
 }
-
 export function ServerSection() {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-black flex items-center justify-center px-10 text-center">
+    <section className="min-h-screen relative overflow-hidden bg-black flex items-center justify-center text-center">
       
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0">
         <img 
           src={screen} 
           alt="indigomc.pl tło" 
           className="w-full h-full object-cover opacity-90" 
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
-      <div className="relative z-10 max-w-[800px]">
+      <div className="relative z-10 max-w-[800px] translate-y-65">
         <p className="font-serif text-[50px] text-white leading-[1.2]">
           Ostatnim etapem fascynacji grami było samodzielne stworzenie serwera w grze Minecraft.
         </p>
