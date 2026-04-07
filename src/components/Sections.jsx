@@ -9,7 +9,7 @@ export function FinaleSection({ certificates = [] }) {
         <div className="max-w-[1300px]">
           <h2 className="font-serif text-[50px] text-white leading-[1.2] mb-6">
             CZERWONY - to kolor paska na każdym świadectwie podczas mojej nauki w technikum.
-            <br/><br/>Co roku byłem laureatem stypendium starosty za wybitne osiągnięcia w nauce.
+            <br/><br/>Co roku byłem też laureatem stypendium starosty za wybitne osiągnięcia w nauce.
           </h2>
         </div>
 
