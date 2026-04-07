@@ -7,7 +7,7 @@ export default function ProjectCard({ title, description, image }) {
           <h2 className="font-serif text-[50px] text-[#111] mb-8">
             {title}
           </h2>
-          <p className="text-2xl text-[#333] max-w-[600px]">
+          <p className="text-2xl text-[#333] max-w-[600px] font-serif">
             {description}
           </p>
         </div>
