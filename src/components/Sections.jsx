@@ -44,7 +44,7 @@ export function MinecraftSection() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
-      <div className="relative z-10 text-center max-w-[720px]">
+      <div className="relative z-10 text-center max-w-[800px]">
         <h2 className="font-serif text-[50px] text-white mb-6">
           Jak to się zaczęło?<br/><br/>
         </h2>
