@@ -1,11 +1,11 @@
-export default function InternshipSection({ number, description, screenshot, kolor }) {
+export default function InternshipSection({ number, title, description, screenshot, kolor }) {
   return (
     <section 
       className="min-h-screen w-full flex flex-col items-center justify-center text-center gap-12"
       style={{ backgroundColor: kolor }}
     >
       <h2 className="font-serif text-[50px] text-[#111] mb-6">
-        Czas praktyk szkolnych był już trudniejszy.
+        {title}
       </h2>
       
       <p className="font-serif text-[19px] text-[#333] max-w-[800px] leading-[1.3]">

@@ -8,7 +8,7 @@ import ProjectCard       from "./components/ProjectCard";
 import { FinaleSection, MinecraftSection, ServerSection } from "./components/Sections";
 
 import praktyki1   from "./assets/images/praktyki1.png";
-import praktyki2   from "./assets/images/praktyki2.jpeg";
+import praktyki2   from "./assets/images/praktyki2.png";
 import witryna     from "./assets/images/witryna.png";
 import projekt2    from "./assets/images/projekt2.png";
 import projekt3    from "./assets/images/projekt3.png";
@@ -28,8 +28,8 @@ const SLIDES = [
   <LanguagesSection key="langs" />,
   <MinecraftSection key="mc" />,
   <ServerSection key="srv" />,
-  <InternshipSection key="int1" number={1} screenshot={praktyki1} kolor="#ffffff" description="„Stworzyłem, w ramach praktyk, system monitorujący bieżące zużycie farby oraz ich stany magazynowe w dużej drukarni wklęsłodrukowej, który znalazł zastosowanie w codziennej pracy firmy." />,
-  <InternshipSection key="int2" number={2} screenshot={praktyki2} kolor="#7d77e5" description='Stworzyłem, w ramach praktyk, „żywą" listę pracowników obecnych na zmianie z bieżącym odczytem ich obecności oraz funkcjami, jakie pełnią w zespołach.' />,
+  <InternshipSection key="int1" number={1} title="Praktyka w zakładzie przemysłowym - klasa 3." screenshot={praktyki1} kolor="#ffffff" description="„Stworzyłem, w ramach praktyk, system monitorujący bieżące zużycie farby oraz ich stany magazynowe w dużej drukarni wklęsłodrukowej, który znalazł zastosowanie w codziennej pracy firmy." />,
+  <InternshipSection key="int2" number={2} title="" screenshot={praktyki2} kolor="#7d77e5" description='Stworzyłem, w ramach praktyk, „żywą" listę pracowników obecnych na zmianie z bieżącym odczytem ich obecności oraz funkcjami, jakie pełnią w zespołach.' />,
   <ProjectCard key="proj1" title="Projekt pozaszkolny" image={witryna} description={<>W pełni responsywna strona internetowa mojego serwera Minecraft – <a href="https://indigomc.pl" target="_blank" rel="noopener noreferrer">indigomc.pl</a>. Gracze mogą na niej kupować doładowania portfela, który w grze pełni rolę waluty do nabywania konkretnych usług. Projekt korzysta z systemu płatności PayByLink, który po zweryfikowaniu płatności wysyła sygnał, umożliwiając graczowi otrzymanie w grze wybranej wartości doładowania. Każda transakcja przechodzi przez indywidualną bramkę płatniczą i jest w pełni szyfrowana. Strona wykorzystuje również bazę danych do przechowywania informacji o graczach oraz prowadzenia statystyk.</>} />,
   <ProjectCard key="proj2" title="Projekt pozaszkolny" image={projekt2} description="„Tworzenie pluginów do Minecrafta oraz własnego serwera, co pozwoliło mi praktycznie poznawać Javę, rozwijać umiejętności programistyczne oraz konfigurować i poznawać Bukkit API. Projekt był częścią wcześniejszej strony internetowej, dzięki czemu mogłem jednocześnie łączyć rozwój backendu serwera z nauką integracji pluginów i praktycznym zastosowaniem języka Java.”" />,
   <ProjectCard key="proj3" title="Projekt pozaszkolny" image={projekt3} description="W pełni responsywna strona internetowa dla lokalnego psychoterapeuty, stworzona w Next.js, umożliwiająca prezentację usług oraz kontakt z klientami poprzez odnośnik do profilu na portalu ZnanyLekarz.pl." />,
