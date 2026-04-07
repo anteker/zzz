@@ -71,9 +71,9 @@ export function ServerSection() {
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
-      <div className="relative z-10 max-w-[800px] translate-y-65">
+      <div className="relative z-10 max-w-[1400px] translate-y-65">
         <p className="font-serif text-[50px] text-white leading-[1.2]">
-          Ostatnim etapem fascynacji grami było samodzielne stworzenie serwera w grze Minecraft.
+          Finałowym etapem fascynacji grami było samodzielne stworzenie, w pełni funkcjonalnego, serwera w grze Minecraft.
         </p>
       </div>
     </section>
