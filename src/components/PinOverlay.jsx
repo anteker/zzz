@@ -66,7 +66,7 @@ export default function PinOverlay({ onUnlock }) {
             Zależności, zasady, konkretne wybory i jednoznaczność...<br/><br/>
           </p>
 
-          <span className="font-serif text-[19px] text-white/60">
+          <span className="font-serif text-2xl text-white/60">
             Proszę, przewijaj tę stronę do końca.
           </span>
         </div>

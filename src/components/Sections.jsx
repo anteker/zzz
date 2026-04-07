@@ -48,11 +48,11 @@ export function MinecraftSection() {
         <h2 className="font-serif text-[50px] text-white mb-6">
           Jak to się zaczęło?<br/><br/>
         </h2>
-        <p className="font-serif text-[50px] text-white leading-[1.2]">
+        <p className="font-serif text-2xl text-white leading-[1.2]">
           Jak chyba u każdego dziecka...
         </p>
-        <p className="font-serif text-[50px] text-white leading-[1.2]">
-          Od gier, od tworzenia pluginów w Minecraft.
+        <p className="font-serif text-2xl text-white leading-[1.2]">
+          Od gier, a w moim przypadku od tworzenia pluginów w grze Minecraft.
         </p>
       </div>
     </section>
