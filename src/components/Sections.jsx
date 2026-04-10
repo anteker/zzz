@@ -45,7 +45,7 @@ export function MinecraftSection() {
       </div>
       
       <div className="relative z-10 text-center max-w-[1200px]">
-        <h2 className="font-serif text-[50px] text-white mb-6">
+        <h2 className="font-serif text-[50px] text-white leading-[2.5]">
           Jak to się zaczęło?<br/>
         </h2>
         <p className="font-serif text-2xl text-white leading-[1.5]">
