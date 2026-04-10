@@ -1,4 +1,4 @@
-import plugin from "../assets/images/plugin.png";
+import grassblock from "../assets/images/grassblock.png";
 import screen from "../assets/images/screen.png";
 
 export function FinaleSection({ certificates = [] }) {
@@ -37,8 +37,8 @@ export function MinecraftSection() {
     <section className="min-h-screen relative overflow-hidden bg-black flex items-center justify-center">
       <div className="absolute inset-0 z-0">
         <img 
-          src={plugin} 
-          alt="Plugin minecraft"
+          src={grassblock} 
+          alt="Blok trawy - screen"
           className="w-full h-full object-cover opacity-90" 
         />
         <div className="absolute inset-0 bg-black/40" />
