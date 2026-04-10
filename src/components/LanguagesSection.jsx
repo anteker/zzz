@@ -26,7 +26,7 @@ export default function LanguagesSection() {
               className="bg-[#333] rounded-xl w-[150px] h-[110px] flex flex-col items-center justify-center shadow-2xl"
               style={{ 
                 opacity: 0,
-                animation: `popIn 0.6s ease forwards ${i * 0.1}s` 
+                animation: `zdjeciaAnimacja 0.6s ease forwards ${i * 0.1}s` 
               }}
             >
               <i className={`${lang.icon} text-white text-4xl mb-3`}></i>
@@ -38,13 +38,6 @@ export default function LanguagesSection() {
         </div>
 
       </div>
-
-      <style>{`
-        @keyframes popIn {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
     </section>
   );
 }

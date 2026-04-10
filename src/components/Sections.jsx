@@ -14,14 +14,18 @@ export function FinaleSection({ certificates = [] }) {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-4 w-full">
-          {certificates.map((img, index) => (
+          {certificates.map((img, i) => (
             <div 
-              key={index} 
+              key={i} 
               className="rounded-lg w-[200px] bg-white/10"
+              style={{ 
+                opacity: 0,
+                animation: `zdjeciaAnimacja 0.6s ease forwards ${i * 0.1}s` 
+              }}
             >
               <img 
                 src={img} 
-                alt={`Świadectwo ${index + 1}`}
+                alt={`Świadectwo ${i + 1}`}
                 className="w-full h-auto object-contain block"
               />
             </div>
