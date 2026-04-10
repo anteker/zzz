@@ -27,7 +27,7 @@ const SLIDES = [
   <FinaleSection key="finale" certificates={[klasa1, klasa2, klasa3, klasa4, stypendium1, stypendium2, stypendium3,stypendium4]} />,
   <LanguagesSection key="langs" />,
   <MinecraftSection key="mc" />,
-  <ServerSection key="srv" />,
+  //<ServerSection key="srv" />,
   <InternshipSection key="int1" number={1} title="Praktyka w zakładzie przemysłowym - klasa 3." screenshot={praktyki1} kolor="#ffffff" 
 description={ <>W ramach praktyk stworzyłem system monitorujący parametry pracy układu farbowego w drukarni wklęsłodrukowej. System pobiera dane z bazy, do której są wprowadzane poprzez liczne czujniki (poziom farby, przepływ, parametry farby...). Wizualizacja odbywa się on-line z częstotliwością równą próbkowaniu przez czujniki. 
 Użyłem w tym projekcie języka PHP jako mostu pomiędzy bazą danych urządzeń oraz graficznym środowiskiem. <br/>
