@@ -1,8 +1,8 @@
 export default function AchievementsSection() {
   const osiagniecia = [
     { id: 1, label: "Egzamin ósmoklasisty - Matematyka", percent: 100 },
-    { id: 2, label: "INF.03 - egzamin zawodowy programista - praktyczny", percent: 97 },
-    { id: 3, label: "INF.04 - egzamin zawodowy programista - praktyczny", percent: 96 },
+    { id: 2, label: "INF.03 - egzamin zawodowy programista", percent: 92 },
+    { id: 3, label: "INF.04 - egzamin zawodowy programista", percent: 95 },
     { id: 4, label: "Próbna matura - Matematyka", percent: 100 },
   ];
 
