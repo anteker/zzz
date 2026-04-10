@@ -25,7 +25,7 @@ export default function Psychoterapia() {
 <p className="font-serif text-2xl text-white">
     Żaden problem.
     Czy to strona tartaku z bazą danych i obsługą sprzedażową, czy też portal psychoterapeuty z przekierowaniami do ZnanyLekarz.pl.
-    Piszę ją w Next.js z wykorzystaniem server-side rendering (SSR), dynamicznego generowania meta tagów, optymalizacji wydajności oraz przyjaznej struktury pod kątem SEO.
+    Piszę je w Next.js z wykorzystaniem server-side rendering (SSR), dynamicznego generowania meta tagów, optymalizacji wydajności oraz przyjaznej struktury pod kątem SEO.
 </p>
       </div>
     </section>
