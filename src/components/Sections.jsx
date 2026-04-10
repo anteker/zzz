@@ -111,7 +111,7 @@ Jest dla mnie wyjątkowa ponieważ udało się mi zintegrować na niej płatnoś
   bramkę płatniczą i jest oczywiście w pełni szyfrowana.<br/><br/>
 Strona ma dodatkowo rozbudowaną bazę danych do przechowywania informacji o graczach,
  płatnościach oraz do prowadzenia wszelkich statystyk.
-Tworzenie jej strony pozwoliło mi praktycznie rozwijać umiejętności programistyczne,
+Tworzenie jej pozwoliło mi praktycznie rozwijać umiejętności programistyczne,
  poznawać Javę  oraz konfigurować nowe dla mnie środowisko Bukkit API. Pisząc tę stronę mogłem 
  jednocześnie łączyć rozwój backendu serwera z nauką integracji pluginów i praktycznym zastosowaniem języka Java.
 </p>
