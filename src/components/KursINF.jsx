@@ -1,4 +1,4 @@
-import kursinf from "../assets/images/kursinf.png";
+import kursinf from "../assets/images/zasoby/kursinf.webp";
 
 export default function KursINF() {
   return (

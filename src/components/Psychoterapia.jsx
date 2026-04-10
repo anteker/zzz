@@ -1,4 +1,4 @@
-import psycho from "../assets/images/psycho.png";
+import psycho from "../assets/images/zasoby/psycho.webp";
 
 export default function Psychoterapia() {
   return (

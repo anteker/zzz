@@ -4,13 +4,13 @@ import PinOverlay        from "./components/PinOverlay";
 import AchievementCard   from "./components/AchivementCards";
 import LanguagesSection  from "./components/LanguagesSection";
 import InternshipSection from "./components/InternshipSection";
-import ProjectCard       from "./components/ProjectCard";
 import { FinaleSection, MinecraftSection, ServerSection } from "./components/Sections";
 import Psychoterapia from "./components/Psychoterapia";
 import KursINF from "./components/KursINF"
+import Zakonczenie from "./components/Zakonczenie";
 
-import praktyki1   from "./assets/images/praktyki1.png";
-import praktyki2   from "./assets/images/praktyki2.png";
+import praktyki1   from "./assets/images/zasoby/praktyki1.webp";
+import praktyki2   from "./assets/images/zasoby/praktyki2.webp";
 import klasa1      from "./assets/images/nagrody/swiadectwo/1klasa.webp";
 import klasa2      from "./assets/images/nagrody/swiadectwo/2klasa.webp";
 import klasa3      from "./assets/images/nagrody/swiadectwo/3klasa.webp";
@@ -35,7 +35,8 @@ Dzisiaj wiem, że to nie było optymalne rozwiązanie... </> } />,
 <br/>Aplikacja pobierała dane z bazy RCP, z biblioteki zdjęć, z bazy szkoleń, z bazy pracowników. Warunkując przypadki system wyświetlał dane konkretnych osób. Dodać należy, że system był wielowymiarowy - operował niezależnie na 8 działach produkcyjnych oraz na 2 modelach pracy (zmianowa i administracyjna). </> } />,
   <ServerSection key="srv" />,
   <Psychoterapia key="psycho"/>,
-  <KursINF key="kurs"/>
+  <KursINF key="kurs"/>,
+  <Zakonczenie key="zakoczenie"/>
 ];
 
 export default function App() {

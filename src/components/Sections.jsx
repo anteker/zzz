@@ -1,5 +1,5 @@
-import grassblock from "../assets/images/grassblock.png";
-import indigomc from "../assets/images/indigomc.png";
+import grassblock from "../assets/images/zasoby/grassblock.webp";
+import indigomc from "../assets/images/zasoby/indigomc.webp";
 
 export function FinaleSection({ certificates = [] }) {
   return (
