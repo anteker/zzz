@@ -101,7 +101,7 @@ export function ServerSection() {
     href="https://indigomc.pl" 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="text-blue-400 underline underline-offset-4 decoration-blue-400/50 hover:text-blue-300 hover:decoration-blue-300 transition-all"
+    className="text-[#633D89] underline underline-offset-4 decoration-[#633D89] hover:text-blue-300 hover:decoration-blue-300 transition-all"
   >
     indigomc.pl
   </a>.

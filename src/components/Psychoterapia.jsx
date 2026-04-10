@@ -9,23 +9,31 @@ export default function Psychoterapia() {
         <img 
           src={psycho} 
           alt="psychoterapia tło" 
-          className="w-full h-full object-fill opacity-90" 
+          className="w-full h-full object-fill" 
         />
         {/* Warstwa przyciemniająca - opcjonalnie zwiększ opacity jeśli tekst jest nieczytelny */}
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0" />
       </div>
 
       {/* Kontener tekstu */}
-      <div className="relative z-10 max-w-[800px] px-6 text-left flex flex-col justify-center items-center min-h-screen translate-y-[30%]">
+      <div className="relative z-10 max-w-[820px] px-6 text-left flex flex-col justify-center items-left min-h-screen translate-y-[30%]">
         
-        <h2 className="font-serif text-[50px] text-white mb-6">
+        <p className="font-serif text-[50px] text-[#957F67] mb-6">
           Zwykłe strony internetowe?
-        </h2>
+        </p>
         
-<p className="font-serif text-2xl text-white">
+<p className="font-serif text-2xl text-[#957F67]">
     Żaden problem.
-    Czy to strona tartaku z bazą danych i obsługą sprzedażową, czy też portal psychoterapeuty z przekierowaniami do ZnanyLekarz.pl.
-    Piszę je w Next.js z wykorzystaniem server-side rendering (SSR), dynamicznego generowania meta tagów, optymalizacji wydajności oraz przyjaznej struktury pod kątem SEO.
+    Czy to strona tartaku z bazą danych i obsługą sprzedażową, czy też portal psychoterapeuty z przekierowaniami do {" "}
+      <a 
+    href="https://znanylekarz.pl" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-[#11705D] underline underline-offset-4 decoration-[#11705D] hover:text-blue-300 hover:decoration-blue-300 transition-all"
+  >
+    ZnanyLekarz.pl
+  </a>.
+    <br/>Piszę je w Next.js z wykorzystaniem server-side rendering (SSR), dynamicznego generowania meta tagów, optymalizacji wydajności oraz przyjaznej struktury pod kątem SEO.
 </p>
       </div>
     </section>
