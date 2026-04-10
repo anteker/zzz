@@ -49,10 +49,19 @@ export function MinecraftSection() {
           Jak to się zaczęło?<br/><br/>
         </h2>
         <p className="font-serif text-2xl text-white leading-[1.2]">
-          Jak chyba u każdego dziecka...
+          Jak chyba u każdego - od gier.
         </p>
         <p className="font-serif text-2xl text-white leading-[1.2]">
-          Od gier, a w moim przypadku od tworzenia pluginów w grze Minecraft.
+          Od próby ich modyfikowania.
+        </p>
+                <p className="font-serif text-2xl text-white leading-[1.2]">
+          Od próby wpływania na przebieg zabawy.
+        </p>
+                <p className="font-serif text-2xl text-white leading-[1.2]">
+          Od napisania pierwszych pluginów w grze Minecraft, które zwiększały możliwości mojej postaci 
+        </p>
+                <p className="font-serif text-2xl text-white leading-[1.2]">
+          poprzez automatyzację działań, i kontrolowanie uprawnień…
         </p>
       </div>
     </section>
