@@ -44,23 +44,26 @@ export function MinecraftSection() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
-      <div className="relative z-10 text-center max-w-[800px]">
+      <div className="relative z-10 text-center max-w-[1200px]">
         <h2 className="font-serif text-[50px] text-white mb-6">
-          Jak to się zaczęło?<br/><br/>
+          Jak to się zaczęło?<br/>
         </h2>
-        <p className="font-serif text-2xl text-white leading-[1.2]">
+        <p className="font-serif text-2xl text-white leading-[1.5]">
           Jak chyba u każdego - od gier.
         </p>
-        <p className="font-serif text-2xl text-white leading-[1.2]">
+        <p className="font-serif text-2xl text-white leading-[1.5]">
           Od próby ich modyfikowania.
         </p>
-                <p className="font-serif text-2xl text-white leading-[1.2]">
+                <p className="font-serif text-2xl text-white leading-[1.5]">
           Od próby wpływania na przebieg zabawy.
         </p>
-                <p className="font-serif text-2xl text-white leading-[1.2]">
-          Od napisania pierwszych pluginów w grze Minecraft, które zwiększały możliwości mojej postaci 
+                <p className="font-serif text-2xl text-white leading-[1.5]">
+          Od napisania pierwszych pluginów w grze Minecraft,
         </p>
-                <p className="font-serif text-2xl text-white leading-[1.2]">
+        <p className="font-serif text-2xl text-white leading-[1.5]">
+          które zwiększały możliwości mojej postaci 
+        </p>
+        <p className="font-serif text-2xl text-white leading-[1.5]">
           poprzez automatyzację działań, i kontrolowanie uprawnień…
         </p>
       </div>
