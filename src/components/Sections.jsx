@@ -89,10 +89,10 @@ export function ServerSection() {
       <div className="relative z-10 max-w-[800px] px-6 text-left 
                       /* TUTAJ STERUJESZ POZYCJĄ: */
                       translate-y-[5%]  /* Przesunięcie góra/dół (procentowo lepiej reaguje) */
-                      translate-x-[-25%]   /* Przesunięcie lewo/prawo jeśli trzeba */">
+                      translate-x-[-30%]   /* Przesunięcie lewo/prawo jeśli trzeba */">
         
         <h2 className="font-serif text-[50px] text-white mb-6">
-          Jak to się zaczęło?
+          Pierwsza poważna robota?
         </h2>
         
 <p className="font-serif text-2xl text-white">
@@ -105,14 +105,15 @@ export function ServerSection() {
   >
     indigomc.pl
   </a>.
-  Jest dla mnie wyjątkowa, ponieważ udało mi się zintegrować na niej płatności systemu PayByLink. 
-  Realne pieniądze gracz może zamienić na doładowania wirtualnej waluty, za którą z kolei może 
-  nabywać określone usługi w grze. Każda transakcja przechodzi przez indywidualną bramkę płatniczą 
-  i jest w pełni szyfrowana.
-  <br /><br />
-  Strona posiada rozbudowaną bazę danych do przechowywania informacji o graczach i płatnościach. 
-  Tworzenie jej pozwoliło mi rozwijać umiejętności programistyczne, poznawać Javę oraz konfigurować 
-  środowisko Bukkit API, łącząc rozwój backendu z nauką integracji pluginów.
+Jest dla mnie wyjątkowa ponieważ udało się mi zintegrować na niej płatności
+ systemu PayByLink. Realne pieniądze gracz może zamienić na doładowania wirtualnej waluty,
+ za którą z kolei może nabywać określone usługi w grze. Każda transakcja przechodzi przez indywidualną
+  bramkę płatniczą i jest oczywiście w pełni szyfrowana.<br/><br/>
+Strona ma dodatkowo rozbudowaną bazę danych do przechowywania informacji o graczach,
+ płatnościach oraz do prowadzenia wszelkich statystyk.
+Tworzenie jej strony pozwoliło mi praktycznie rozwijać umiejętności programistyczne,
+ poznawać Javę  oraz konfigurować nowe dla mnie środowisko Bukkit API. Pisząc tę stronę mogłem 
+ jednocześnie łączyć rozwój backendu serwera z nauką integracji pluginów i praktycznym zastosowaniem języka Java.
 </p>
       </div>
     </section>
