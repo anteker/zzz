@@ -19,7 +19,7 @@ export default function Psychoterapia() {
       <div className="relative z-10 max-w-[800px] px-6 text-left flex flex-col justify-center items-center min-h-screen translate-y-[30%]">
         
         <h2 className="font-serif text-[50px] text-white mb-6">
-          Zwykłe strona internetowe?
+          Zwykłe strony internetowe?
         </h2>
         
 <p className="font-serif text-2xl text-white">

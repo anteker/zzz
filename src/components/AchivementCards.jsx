@@ -15,7 +15,7 @@ export default function AchievementsSection() {
           <p><br></br></p>
         </p>
         
-        <div className="max-w-[670px] w-full flex flex-col gap-8 mx-auto">
+        <div className="max-w-[580px] w-full flex flex-col gap-8 mx-auto">
           {osiagniecia.map((item) => (
             <div 
               key={item.id}
@@ -25,7 +25,7 @@ export default function AchievementsSection() {
                 {item.percent}%
               </span>
               
-              <span className="font-serif text-[20px] text-[#444] text-left pr-4">
+              <span className="font-serif text-[20px] text-[#444] text-left">
                 {item.label}
               </span>
             </div>
