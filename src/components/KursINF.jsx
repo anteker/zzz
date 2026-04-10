@@ -18,14 +18,14 @@ export default function KursINF() {
       {/* Kontener tekstu */}
       <div className="relative z-10 max-w-[770px] px-6 text-left 
                       /* TUTAJ STERUJESZ POZYCJĄ: */
-                      translate-y-[0%]  /* Przesunięcie góra/dół (procentowo lepiej reaguje) */
-                      translate-x-[-40%]   /* Przesunięcie lewo/prawo jeśli trzeba */">
+                      translate-y-[-5%]  /* Przesunięcie góra/dół (procentowo lepiej reaguje) */
+                      translate-x-[-50%]   /* Przesunięcie lewo/prawo jeśli trzeba */">
         
         <p className="font-serif text-[50px] text-[#fff] mb-6">
           Co po maturze? 
         </p>
         
-<p className="font-serif text-xl text-[#fff] leading-[1.2]">
+<p className="font-serif text-2xl text-[#fff] leading-[1.2]">
     Czas na realizację kolejnego, tym razem większego, projektu.<br/>
     Tworzę kompleksowy kurs przygotowujący do kwalifikacji programistycznej INF.03 i INF.04. Sam 
     bardzo dobrze zdałem oba egzaminy dlatego mam prawo sądzić, że dobrze rozumiem wymagania 
