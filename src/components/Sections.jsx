@@ -1,5 +1,5 @@
 import grassblock from "../assets/images/grassblock.png";
-import screen from "../assets/images/screen.png";
+import indigomc from "../assets/images/indigomc.png";
 
 export function FinaleSection({ certificates = [] }) {
   return (
@@ -72,21 +72,48 @@ export function MinecraftSection() {
 }
 export function ServerSection() {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-black flex items-center justify-center text-center">
+    <section className="min-h-screen relative overflow-hidden bg-black flex items-center justify-center">
       
+      {/* Tło */}
       <div className="absolute inset-0">
         <img 
-          src={screen} 
+          src={indigomc} 
           alt="indigomc.pl tło" 
-          className="w-full h-full object-cover opacity-90" 
+          className="w-full h-full object-fill opacity-90" 
         />
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Warstwa przyciemniająca - opcjonalnie zwiększ opacity jeśli tekst jest nieczytelny */}
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <div className="relative z-10 max-w-[1400px] translate-y-65">
-        <p className="font-serif text-[50px] text-white leading-[1.2]">
-          Finałowym etapem fascynacji grami było samodzielne stworzenie, w pełni funkcjonalnego, serwera w grze Minecraft.
-        </p>
+      {/* Kontener tekstu */}
+      <div className="relative z-10 max-w-[800px] px-6 text-left 
+                      /* TUTAJ STERUJESZ POZYCJĄ: */
+                      translate-y-[5%]  /* Przesunięcie góra/dół (procentowo lepiej reaguje) */
+                      translate-x-[-25%]   /* Przesunięcie lewo/prawo jeśli trzeba */">
+        
+        <h2 className="font-serif text-[50px] text-white mb-6">
+          Jak to się zaczęło?
+        </h2>
+        
+<p className="font-serif text-2xl text-white">
+  W pełni responsywna strona internetowa serwera Minecraft{" "}
+  <a 
+    href="https://indigomc.pl" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-blue-400 underline underline-offset-4 decoration-blue-400/50 hover:text-blue-300 hover:decoration-blue-300 transition-all"
+  >
+    indigomc.pl
+  </a>.
+  Jest dla mnie wyjątkowa, ponieważ udało mi się zintegrować na niej płatności systemu PayByLink. 
+  Realne pieniądze gracz może zamienić na doładowania wirtualnej waluty, za którą z kolei może 
+  nabywać określone usługi w grze. Każda transakcja przechodzi przez indywidualną bramkę płatniczą 
+  i jest w pełni szyfrowana.
+  <br /><br />
+  Strona posiada rozbudowaną bazę danych do przechowywania informacji o graczach i płatnościach. 
+  Tworzenie jej pozwoliło mi rozwijać umiejętności programistyczne, poznawać Javę oraz konfigurować 
+  środowisko Bukkit API, łącząc rozwój backendu z nauką integracji pluginów.
+</p>
       </div>
     </section>
   );
