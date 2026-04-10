@@ -7,6 +7,7 @@ import InternshipSection from "./components/InternshipSection";
 import ProjectCard       from "./components/ProjectCard";
 import { FinaleSection, MinecraftSection, ServerSection } from "./components/Sections";
 import Psychoterapia from "./components/Psychoterapia";
+import KursINF from "./components/KursINF"
 
 import praktyki1   from "./assets/images/praktyki1.png";
 import praktyki2   from "./assets/images/praktyki2.png";
@@ -34,9 +35,7 @@ Dzisiaj wiem, że to nie było optymalne rozwiązanie... </> } />,
 <br/>Aplikacja pobierała dane z bazy RCP, z biblioteki zdjęć, z bazy szkoleń, z bazy pracowników. Warunkując przypadki system wyświetlał dane konkretnych osób. Dodać należy, że system był wielowymiarowy - operował niezależnie na 8 działach produkcyjnych oraz na 2 modelach pracy (zmianowa i administracyjna). </> } />,
   <ServerSection key="srv" />,
   <Psychoterapia key="psycho"/>,
-  <ProjectCard key="proj4" title="I wiele, wiele więcej!" description="Tworzę kompleksowy kurs przygotowujący do kwalifikacji INF.04, której jestem absolwentem, dzięki czemu dobrze rozumiem wymagania egzaminacyjne oraz potrzeby osób uczących się. W ramach projektu stworzę pełnoprawną platformę edukacyjną – od panelu logowania i rejestracji użytkowników, przez opracowanie i wdrożenie bazy danych do przechowywania informacji o użytkownikach, aż po integrację z operatorem płatności umożliwiającym zakup dostępu do kursu.
-Na platformie opracuję autorskie materiały wideo, które w przystępny sposób omówią cały zakres wiedzy wymagany do zdania kwalifikacji INF.04. Kurs będzie prowadzony krok po kroku, obejmując zarówno zagadnienia teoretyczne, jak i praktyczne, tak aby użytkownicy mogli kompleksowo przygotować się do egzaminu.
-Projekt połączy umiejętności programistyczne – tworzenie aplikacji webowej, obsługę backendu i baz danych oraz integrację z zewnętrznymi API – z kompetencjami dydaktycznymi, ponieważ jego celem będzie nie tylko stworzenie działającego systemu, ale przede wszystkim skuteczne przygotowanie innych osób do egzaminu zawodowego." />,
+  <KursINF key="kurs"/>
 ];
 
 export default function App() {
