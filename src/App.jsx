@@ -10,16 +10,14 @@ import Psychoterapia from "./components/Psychoterapia";
 
 import praktyki1   from "./assets/images/praktyki1.png";
 import praktyki2   from "./assets/images/praktyki2.png";
-import projekt3    from "./assets/images/projekt3.png";
-import projekt4    from "./assets/images/projekt4.png";
-import klasa1      from "./assets/images/nagrody/1klasa.png";
-import klasa2      from "./assets/images/nagrody/2klasa.png";
-import klasa3      from "./assets/images/nagrody/3klasa.png";
-import klasa4      from "./assets/images/nagrody/4klasa.png";
-import stypendium1 from "./assets/images/nagrody/1stypendium.png";
-import stypendium2 from "./assets/images/nagrody/2stypendium.png";
-import stypendium3 from "./assets/images/nagrody/3stypendium.png";
-import stypendium4 from "./assets/images/nagrody/4stypendium.png";
+import klasa1      from "./assets/images/nagrody/swiadectwo/1klasa.webp";
+import klasa2      from "./assets/images/nagrody/swiadectwo/2klasa.webp";
+import klasa3      from "./assets/images/nagrody/swiadectwo/3klasa.webp";
+import klasa4      from "./assets/images/nagrody/swiadectwo/4klasa.webp";
+import stypendium1 from "./assets/images/nagrody/stypendium/1stypendium.webp";
+import stypendium2 from "./assets/images/nagrody/stypendium/2stypendium.webp";
+import stypendium3 from "./assets/images/nagrody/stypendium/3stypendium.webp";
+import stypendium4 from "./assets/images/nagrody/stypendium/4stypendium.webp";
 
 const SLIDES = [
   <AchievementCard key="ach" />,
@@ -36,7 +34,7 @@ Dzisiaj wiem, że to nie było optymalne rozwiązanie... </> } />,
 <br/>Aplikacja pobierała dane z bazy RCP, z biblioteki zdjęć, z bazy szkoleń, z bazy pracowników. Warunkując przypadki system wyświetlał dane konkretnych osób. Dodać należy, że system był wielowymiarowy - operował niezależnie na 8 działach produkcyjnych oraz na 2 modelach pracy (zmianowa i administracyjna). </> } />,
   <ServerSection key="srv" />,
   <Psychoterapia key="psycho"/>,
-  <ProjectCard key="proj4" title="I wiele, wiele więcej!" images={[projekt4]} description="Tworzę kompleksowy kurs przygotowujący do kwalifikacji INF.04, której jestem absolwentem, dzięki czemu dobrze rozumiem wymagania egzaminacyjne oraz potrzeby osób uczących się. W ramach projektu stworzę pełnoprawną platformę edukacyjną – od panelu logowania i rejestracji użytkowników, przez opracowanie i wdrożenie bazy danych do przechowywania informacji o użytkownikach, aż po integrację z operatorem płatności umożliwiającym zakup dostępu do kursu.
+  <ProjectCard key="proj4" title="I wiele, wiele więcej!" description="Tworzę kompleksowy kurs przygotowujący do kwalifikacji INF.04, której jestem absolwentem, dzięki czemu dobrze rozumiem wymagania egzaminacyjne oraz potrzeby osób uczących się. W ramach projektu stworzę pełnoprawną platformę edukacyjną – od panelu logowania i rejestracji użytkowników, przez opracowanie i wdrożenie bazy danych do przechowywania informacji o użytkownikach, aż po integrację z operatorem płatności umożliwiającym zakup dostępu do kursu.
 Na platformie opracuję autorskie materiały wideo, które w przystępny sposób omówią cały zakres wiedzy wymagany do zdania kwalifikacji INF.04. Kurs będzie prowadzony krok po kroku, obejmując zarówno zagadnienia teoretyczne, jak i praktyczne, tak aby użytkownicy mogli kompleksowo przygotować się do egzaminu.
 Projekt połączy umiejętności programistyczne – tworzenie aplikacji webowej, obsługę backendu i baz danych oraz integrację z zewnętrznymi API – z kompetencjami dydaktycznymi, ponieważ jego celem będzie nie tylko stworzenie działającego systemu, ale przede wszystkim skuteczne przygotowanie innych osób do egzaminu zawodowego." />,
 ];
