@@ -6,11 +6,10 @@ import LanguagesSection  from "./components/LanguagesSection";
 import InternshipSection from "./components/InternshipSection";
 import ProjectCard       from "./components/ProjectCard";
 import { FinaleSection, MinecraftSection, ServerSection } from "./components/Sections";
+import Psychoterapia from "./components/Psychoterapia";
 
 import praktyki1   from "./assets/images/praktyki1.png";
 import praktyki2   from "./assets/images/praktyki2.png";
-import witryna     from "./assets/images/witryna.png";
-import projekt2    from "./assets/images/projekt2.png";
 import projekt3    from "./assets/images/projekt3.png";
 import projekt4    from "./assets/images/projekt4.png";
 import klasa1      from "./assets/images/nagrody/1klasa.png";
@@ -36,6 +35,7 @@ Dzisiaj wiem, że to nie było optymalne rozwiązanie... </> } />,
   description={ <>Druga moja praktyka w tym samym zakładzie produkcyjnym. Tym razem moim zadaniem było zwizualizowanie osób, które będąc na danej zmianie w pracy, mają uprawnienia ratowników medycznych i/lub pożarowych.
 <br/>Aplikacja pobierała dane z bazy RCP, z biblioteki zdjęć, z bazy szkoleń, z bazy pracowników. Warunkując przypadki system wyświetlał dane konkretnych osób. Dodać należy, że system był wielowymiarowy - operował niezależnie na 8 działach produkcyjnych oraz na 2 modelach pracy (zmianowa i administracyjna). </> } />,
   <ServerSection key="srv" />,
+  <Psychoterapia key="psycho"/>,
   <ProjectCard key="proj3" title="Projekt pozaszkolny" image={projekt3} description="W pełni responsywna strona internetowa dla lokalnego psychoterapeuty, stworzona w Next.js, umożliwiająca prezentację usług oraz kontakt z klientami poprzez odnośnik do profilu na portalu ZnanyLekarz.pl." />,
   <ProjectCard key="proj4" title="I wiele, wiele więcej!" images={[projekt4]} description="Tworzę kompleksowy kurs przygotowujący do kwalifikacji INF.04, której jestem absolwentem, dzięki czemu dobrze rozumiem wymagania egzaminacyjne oraz potrzeby osób uczących się. W ramach projektu stworzę pełnoprawną platformę edukacyjną – od panelu logowania i rejestracji użytkowników, przez opracowanie i wdrożenie bazy danych do przechowywania informacji o użytkownikach, aż po integrację z operatorem płatności umożliwiającym zakup dostępu do kursu.
 Na platformie opracuję autorskie materiały wideo, które w przystępny sposób omówią cały zakres wiedzy wymagany do zdania kwalifikacji INF.04. Kurs będzie prowadzony krok po kroku, obejmując zarówno zagadnienia teoretyczne, jak i praktyczne, tak aby użytkownicy mogli kompleksowo przygotować się do egzaminu.
