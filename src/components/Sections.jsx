@@ -79,10 +79,10 @@ export function ServerSection() {
         <img 
           src={indigomc} 
           alt="indigomc.pl tło" 
-          className="w-full h-full object-fill opacity-90" 
+          className="w-full h-full object-fill" 
         />
         {/* Warstwa przyciemniająca - opcjonalnie zwiększ opacity jeśli tekst jest nieczytelny */}
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0" />
       </div>
 
       {/* Kontener tekstu */}
