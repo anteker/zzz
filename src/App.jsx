@@ -7,7 +7,7 @@ import Jezyk from "./components/Jezyk";
 import Minecraft from "./components/Minecraft";
 import Praktyka from "./components/Praktyka";
 import Serwer from "./components/Serwer";
-import Psychoterapia from "./components/psychoterapia";
+import Psychoterapia from "./components/Psychoterapia";
 import KursINF from "./components/KursINF";
 import Zakonczenie from "./components/Zakonczenie";
 
