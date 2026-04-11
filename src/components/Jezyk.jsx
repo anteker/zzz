@@ -1,4 +1,4 @@
-const LANGUAGES = [
+const ikonyJezykow = [
   { name: "Java", icon: "devicon-java-plain" },
   { name: "C++", icon: "devicon-cplusplus-plain" },
   { name: "PHP", icon: "devicon-php-plain" },
@@ -10,17 +10,17 @@ const LANGUAGES = [
   { name: "Git", icon: "devicon-git-plain" }
 ];
 
-export default function LanguagesSection() {
+export default function Jezyk() {
   return (
-    <section className="min-h-screen bg-[#d0d0d0] flex flex-col items-center justify-center px-6 py-20">
+    <section className="min-h-screen bg-[#d0d0d0] flex flex-col items-center justify-center">
       <div className="max-w-4xl w-full text-center">
         
-        <h2 className="font-serif text-[50px] text-[#111] leading-tight mb-16 ">
+        <h2 className="font-serif text-[50px] text-[#111] leading-tight">
           Oprócz języka polskiego i angielskiego doskonalę swoje umiejętności w "jezykach":<br/><br/>
         </h2>
 
         <div className="flex flex-wrap gap-6 justify-center">
-          {LANGUAGES.map((lang, i) => (
+          {ikonyJezykow.map((lang, i) => (
             <div 
               key={lang.name} 
               className="bg-[#333] rounded-xl w-[150px] h-[110px] flex flex-col items-center justify-center shadow-2xl"
